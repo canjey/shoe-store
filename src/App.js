@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
 import  Productdetails from './Productdetails';
-import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Link, Route, Routes} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
