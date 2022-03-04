@@ -270,7 +270,9 @@ function ShoeLaces(){
     ];
     return(
         <>
-        <h3 id ='title'>Other Shoe Parts</h3>
+        <body style={{ color: '#4c4a37',
+  fontFamily: 'Source Sans Pro sans-serif', fontSize: '18px', lineHeight: '32px', margin: '0 0 24px'}}>
+        <h3 id ='title'>Other Shoe Neccessities</h3>
         <div className ="shoelace" style={{ display:'flex', marginLeft:'100px'}}>
             <div class ="imageshoelace">
                 <img src={Shoelace}  style ={{width:'200px'}}/>
@@ -284,6 +286,7 @@ function ShoeLaces(){
                 </p>
             </div>
         </div>
+        </body>
         </>
     )
 }

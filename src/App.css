@@ -8,6 +8,15 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.body{
+  
+  color: #4c4a37; 
+  font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px;
+}
+.body >p{
+  color: #4c4a37; 
+  font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px;
+}
 .categories_container{
   display: flex;
   justify-content: space-between;
@@ -62,7 +71,8 @@
   padding: 10px;
   padding-top: 30px;
   width: 300px;
-  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 350px;
   border-radius: 10px;
   /* background-color: lavender; */
@@ -91,11 +101,13 @@
 .blogs{
   display: flex;
   border-radius: 20%;
-  background-color: aliceblue;
+  margin-left: 20%;
+  margin-right: 10%;
+  /* background-color: aliceblue; */
 }
 .blogContainer{
   border-radius: 10%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 .blogs >div{
   padding: 20px;

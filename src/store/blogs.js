@@ -1,6 +1,6 @@
 import React from "react";
-import Tips from '../resources/blogs/tips1.jfif';
-import Tips1 from '../resources/blogs/tips2.jfif';
+import Suede from '../resources/blogs/suede.jpg';
+import Polish from '../resources/blogs/polish.jfif';
 import '../App.css'
 
 export default function Blogs() {
@@ -8,17 +8,16 @@ export default function Blogs() {
         <>
             <div className="blogContainer">
                 <div>
-                    <p id="title"> Blogs </p>
+                    <h3 id="title"> Products to use </h3>
                     <div class="blogs">
                         <div>
-                            <a href = "https://icanmakeshoes.com/top-tips-to-care-for-your-shoes/" > <img src={Tips} /></a>
+                            <a href = "#" > <img src={Suede} style={{ width:'150px'}} /></a>
                         </div>
                         <div>
+                            <h3>Kiwi</h3>
                             <p>
-                                1. Shoes too big?
-
-                                “What are insoles?” you may ask. An insole is a soft pad (usually made from a foam, gel or leather material), which you place inside your shoes to provide support, cushioning and even warmth for your feet...
-
+                            <p>Specially formulated to revive and restore the original colour of suede leather</p>
+                            <button style={{ width:'150px'}}> Shop Suede</button>
                                 
                             </p>
                         </div>
@@ -28,11 +27,13 @@ export default function Blogs() {
                         
                         
                         <div>
-                            <a href = "https://www.marthastewart.com/1136215/how-take-care-your-shoes-keep-looking-new" > <img src={Tips1} /></a>
+                            <a href = "#" > <img src={Polish} style={{ width:'150px'}} /></a>
                         </div>
                         <div>
                             <p>
-                            How to Take Care of Your Shoes and Keep Them Looking Like New
+                                <h3 id = "title"> Take Care of your Shoes</h3>
+                                <p>With the right shoe polish at hand, you get to protect your shoes and give them a good classy look each morning</p>
+                                <button style={{ width:'150px'}}> Shop Kiwi</button>
                                 
                             </p>
                         </div>
